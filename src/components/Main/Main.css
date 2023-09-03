@@ -1,0 +1,33 @@
+main {
+	width: 100%;
+	height: calc(100vh - 250px);
+	overflow: hidden;
+}
+
+main > div {
+	width: 100%;
+	height: 100%;
+}
+
+.wrapper-loading {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background-repeat: repeat;
+}
+
+.wrapper-loading.light {
+	background-image: url(../../assets/images/pattern-light.png);
+}
+
+.wrapper-loading.dark {
+	background-image: url(../../assets/images/pattern-dark.png);
+}
+
+.wrapper-loading span {
+	font-size: 2em;
+	color: var(--color-loading);
+	font-weight: 700;
+}

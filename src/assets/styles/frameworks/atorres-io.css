@@ -1,0 +1,85 @@
+/* ====================
+ * CONFIGURATION
+ * ==================== */
+
+:is(*, *:before, *::after) {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+	box-sizing: border-box;
+	vertical-align: baseline;
+	font-size: 100%;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400; /* 500, 700 */
+}
+
+/* ====================
+ * GENERALS STYLES
+ * ==================== */
+
+div {
+	min-width: 0;
+	overflow-wrap: break-word;
+}
+
+img {
+	vertical-align: top;
+	object-fit: contain;
+	object-position: center center;
+	font-size: 1rem;
+	text-align: center;
+}
+
+:is(button, select, input) {
+	appearance: none;
+	-webkit-appearance: none;
+}
+
+hr {
+	box-sizing: content-box;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+video[autoplay]:not([muted]) {
+	display: none;
+}
+
+a[href^='http']:empty::before {
+	content: attr(href);
+}
+
+/* ====================
+ * FONTS
+ * ==================== */
+
+:is(h1, h2, h3, h4, h5, h6) {
+	margin-top: 0;
+}
+
+/* ====================
+ * UTILITIES
+ * ==================== */
+
+.elastic {
+	-webkit-animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* ====================
+ * MEDIA
+ * ==================== */
+
+@media (prefers-reduced-motion: reduce) {
+	:is(*, *::before, *::after) {
+		animation: none !important;
+		transition: none !important;
+	}
+}
