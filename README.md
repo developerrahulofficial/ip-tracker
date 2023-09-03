@@ -1,4 +1,4 @@
-# Frontend Mentor - IP Adress Tracker [![Netlify Status](https://api.netlify.com/api/v1/badges/37ab9b31-6e80-4ba4-be8e-67ae1afe3d1f/deploy-status)](https://app.netlify.com/sites/hopeful-blackwell-1aa8c9/deploys)
+#IP Adress Tracker [![Netlify Status](https://api.netlify.com/api/v1/badges/37ab9b31-6e80-4ba4-be8e-67ae1afe3d1f/deploy-status)](https://app.netlify.com/sites/hopeful-blackwell-1aa8c9/deploys)
 
 [![Lighthouse Status](https://img.shields.io/badge/-Performance%2098-09864c?style=flat-square&logo=lighthouse&logoColor=white)](https://app.netlify.com/sites/wizardly-hoover-860206/deploys)
 [![Lighthouse Status](https://img.shields.io/badge/-Accessibility%2077-ff7733?style=flat-square&logo=lighthouse&logoColor=white)](https://app.netlify.com/sites/wizardly-hoover-860206/deploys)
@@ -57,8 +57,6 @@ Using IpAdress API and react-leaflet.
 
 ## Author
 
-- Instagram - [@atorres.designs](https://www.instagram.com/atorres.designs/)
-- Frontend Mentor - [@atorres-io](https://www.frontendmentor.io/profile/atorres-io)
-- Github - [@atorres-io](https://github.com/atorres-io)
-- Codepen - [@atorres-designs](https://codepen.io/atorres-designs)
-- LinkedIn - [@atorresalcala](https://www.linkedin.com/in/atorresalcala)
+- Instagram - [@developer_rahul_](https://www.instagram.com/developer_rahul_)
+- Github - [@developerrahulofficial](https://github.com/developerrahulofficial)
+- Youtube - https://www.youtube.com/channel/UCzB2vC0kH-PPbrGmqeII9hQ
